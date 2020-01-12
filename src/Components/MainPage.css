@@ -1,0 +1,186 @@
+.Location {
+  margin-left:120px;
+}
+.head {
+  margin-top:95px;
+  margin-left:10px;
+  
+}
+#homebtn:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+}
+
+#locbtn:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+}
+#lineonee {
+height: 2px;
+color: #CECBCE;
+background-color:#CECBCE;
+border: none;
+}
+.w3-card-4 {
+ text-align: center;
+ border:1px solid #A7AEAE;
+}
+.w3-card-4:hover {
+  transform: scale(1.03);
+  border-color: black;
+}
+#locationnameclass:hover {
+  color:blue;
+  cursor: pointer;
+ 
+}
+.column {
+  float: left;
+  width: 23%;;
+  padding: 0 10px;
+  margin:5px;
+  margin-bottom: 15px;
+}
+.row {
+  margin: 0 -5px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.pagination {
+  display: inline-block;
+  margin-left:10px;
+  text-align: center;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  width:150px;
+}
+
+.pagination a.active {
+  background-color: gray;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.locationtitle {
+  font-weight: bolder;
+}
+
+#content {
+    width:100%;
+}
+#lineone {
+  height: 2px;
+  color: #CECBCE;
+  background-color:#CECBCE;
+  border: none;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+  
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 87px;
+  left: 0;
+  background-color: #ede3fc;
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color:  #7c38c9;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: solid blue;
+}
+
+.mainn {
+  margin-left: 120px; 
+  font-size: 15px; 
+  padding: 0px 10px;
+  margin-top:100px;
+  margin-bottom: 50px;
+  background-color: white;
+}
+
+#lineone {
+  height: 2px;
+  color: #CECBCE;
+  background-color:#CECBCE;
+  border: none;
+  
+}
+
+#headinggg {
+  font-family: serif;
+  font-style: italic;
+  font-weight: bolder;
+  font-size:40px;
+
+}
+
+#resinames {
+  color: #2B16B3;
+  font-weight: 520;
+  text-decoration: underline;
+}
+#resinames:hover {  
+  color: blueviolet;
+}
+
+#residents {
+  color:black;
+  margin-left:80px;
+  margin-top:20px;
+  margin-bottom:100px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:20px;
+}
+
+#buttonn {
+  padding: 8px;
+  width: 30px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  border-style:none;
+  background-color:#b5b3ba;
+}
+#buttonn:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#searchcontent {
+  background-color:#b5b3ba;
+  padding:12px;
+  border-radius:10px;
+  margin-left:900px ;
+  margin-top:50px;
+}
+  
+
+
+  
