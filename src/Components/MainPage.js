@@ -106,10 +106,12 @@ class MainPage extends Component {
           <div id="navbar" style={{backgroundColor: "#dee3e3",position: "fixed",top:"0",width:"100%",height:"85px"}}>
             <div>
               <img src={rickyandmorky} id="titleimg"  alt="" style={{height:"50px",width:"120px",margin:"10px 5px 5px 20px"}}/>
-              <span id="searchcontent" style={{backgroundColor:"#b5b3ba" ,padding:"12px",borderRadius:"10px",marginLeft:"900px" ,marginTop:"50px"}}>Search By
-              <input type="search" className="searchbox" id="searchbox" placeholder="Episode or Character or Location" style={{borderStyle:"none", padding:"10px", width:"160px"}}/>
+              <div style={{margin:"-40px 0px 0px 760px"}}>
+              <span id="searchcontent" >Search By
+              <input type="search" placeholder="Episode or Character or Location"/>
               <button className="glyphicon glyphicon-search" id="buttonn"><FaSearch/></button>
               </span>
+              </div>
             </div>
             <hr id="lineone"/>
           </div>
@@ -163,7 +165,7 @@ class MainPage extends Component {
             <div className="Locationdatas" style={{marginLeft:"50px"}}>
               <br/><br/>
               <h3 className="locationtitle">Episode Number :  <span style={{fontSize:"20px", fontWeight:"lighter"}}>{r.episode}</span></h3>
-              <h3 className="locationtitle">Air date :    <span style={{fontSize:"20px" ,fontWeight:"lighter"}}>{date(r.air_date, "ddd mmm dd yyyy")}</span></h3>
+              <h3 className="locationtitle">Air  :    <span style={{fontSize:"20px" ,fontWeight:"lighter"}}>{date(r.air_date, "ddd mmm dd yyyy")}</span></h3>
               <h3 className="locationtitle">Created :     <span style={{fontSize:"20px", fontWeight:"lighter"}}>{date(r.created, "ddd mmm dd yyyy")}</span></h3>
               <br/>
             </div>
