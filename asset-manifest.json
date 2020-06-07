@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Fandom-react-project/static/css/main.a729fa36.chunk.css",
+    "main.js": "/Fandom-react-project/static/js/main.91f87670.chunk.js",
+    "main.js.map": "/Fandom-react-project/static/js/main.91f87670.chunk.js.map",
+    "runtime-main.js": "/Fandom-react-project/static/js/runtime-main.84b11c8a.js",
+    "runtime-main.js.map": "/Fandom-react-project/static/js/runtime-main.84b11c8a.js.map",
+    "static/js/2.c12124ee.chunk.js": "/Fandom-react-project/static/js/2.c12124ee.chunk.js",
+    "static/js/2.c12124ee.chunk.js.map": "/Fandom-react-project/static/js/2.c12124ee.chunk.js.map",
+    "index.html": "/Fandom-react-project/index.html",
+    "precache-manifest.3580940c13fd3869a4b20db987c4650f.js": "/Fandom-react-project/precache-manifest.3580940c13fd3869a4b20db987c4650f.js",
+    "service-worker.js": "/Fandom-react-project/service-worker.js",
+    "static/css/main.a729fa36.chunk.css.map": "/Fandom-react-project/static/css/main.a729fa36.chunk.css.map",
+    "static/js/2.c12124ee.chunk.js.LICENSE": "/Fandom-react-project/static/js/2.c12124ee.chunk.js.LICENSE",
+    "static/media/image.jpeg": "/Fandom-react-project/static/media/image.18901271.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.84b11c8a.js",
+    "static/js/2.c12124ee.chunk.js",
+    "static/css/main.a729fa36.chunk.css",
+    "static/js/main.91f87670.chunk.js"
+  ]
+}
